@@ -3,7 +3,6 @@ var spawn = require('child_process').spawn;
 function CommandLineConverter(){
 
 }
-
 CommandLineConverter.prototype ={
 	call : function(command,emitter){
 		// debugger;
