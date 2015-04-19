@@ -19,7 +19,7 @@ CommandLineConverter.prototype ={
 			}
 		});
 		command.stderr.on("data", function(data){
-			var formattedData = "CLC-STDERR : \n"+ data;
+			// var formattedData = "CLC-STDERR : \n"+ data;
 			var formattedData = ""+data;
 			console.log(formattedData);
 			if(emitter!=null){
